@@ -62,10 +62,6 @@ class Cc:
         
 main = Cc()
 
-
-
-print(json.dumps(main.GetListSoQuyetDinh('45/QĐ-QLBH'),  indent=4, sort_keys=True,ensure_ascii=False))
-
 st.set_page_config(page_title="BVL download CC",layout='wide')
 st.title("Tải kết quả")
 with st.form(key='my_form'):
