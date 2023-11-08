@@ -98,6 +98,7 @@ def showqd(input_text):
     st.dataframe(list_qd_view, hide_index=True,  width=2000)
 
 if convert and input_text:
+    showqd(input_text)
     list_qd = main.GetListSoQuyetDinh(input_text)
     try:
         list_contest = list_qd[0]['Codeofcourses']
